@@ -1,0 +1,20 @@
+[package]
+name = "defi_aggregator"
+version = "1.0.0"
+authors = []
+
+[addresses]
+defi_aggregator = "_"
+
+[dev-addresses]
+defi_aggregator = "0xCAFE"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-stdlib"
